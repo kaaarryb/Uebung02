@@ -7,15 +7,15 @@ public class h2_main {
 		int k = 16;
 		int min;
 		int max;
-		
+
 		min = i;
 		if (j < min) {
 			min = j;
 		}
 		if (k < min) {
-			min =k;
+			min = k;
 		}
-		
+
 		max = i;
 		if (j > max) {
 			max = j;
@@ -23,10 +23,9 @@ public class h2_main {
 		if (k > max) {
 			max = k;
 		}
-		
+
 		System.out.println("Minimum: " + min);
 		System.out.println("Maximum: " + max);
 	}
-	
 
 }
