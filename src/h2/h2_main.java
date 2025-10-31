@@ -1,6 +1,6 @@
 package h2;
 
-public class h2_main {
+public class H2_main {
 	public static void main(String[] args) {
 		int i = 25;
 		int j = 7;
